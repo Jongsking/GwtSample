@@ -7,9 +7,8 @@ public class ComboBoxBean {
 	public String getComboBox() {
 		return comboBox;
 	}
-
-	public void setComboBox(String comboBox) {
-		this.comboBox = comboBox;
+	public void setComboBox(String combo) {
+		this.comboBox = combo;
 	}
 	
 	

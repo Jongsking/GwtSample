@@ -2,13 +2,21 @@
 <ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
 	xmlns:g="urn:import:com.google.gwt.user.client.ui" 
 	xmlns:c="urn:import:com.sencha.gxt.widget.core.client.container" 
-	xmlns:f="urn:import:com.sencha.gxt.widget.core.client.form" 
-	xmlns:t="urn:import:com.dtc.test.client.ui">
+	xmlns:core="urn:import:com.sencha.gxt.widget.core.client" 
+	xmlns:f="urn:import:com.sencha.gxt.widget.core.client.form" xmlns:s="urn:import:javax.swing" 
+	xmlns:t="urn:import:com.dtc.test.client.ui" xmlns:b="urn:import:com.sencha.gxt.widget.core.client.button">
 	
-	<f:FieldLabel text="ComboBox" >
-		<f:widget>
-			<f:StringComboBox ui:field="comboBox" />
-		</f:widget>
-	</f:FieldLabel>
+	<c:VerticalLayoutContainer>
+		<core:FramedPanel>
+			<f:FieldLabel text="ComboBox" >
+				<f:widget>
+					<f:StringComboBox ui:field="comboBox" />
+				</f:widget>
+			</f:FieldLabel>
+			<core:button >
+				<b:TextButton text="保存" ui:field="save" />
+			</core:button>
+		</core:FramedPanel>
+	</c:VerticalLayoutContainer>
 	
 </ui:UiBinder> 
