@@ -1,0 +1,14 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui" 
+	xmlns:c="urn:import:com.sencha.gxt.widget.core.client.container" 
+	xmlns:f="urn:import:com.sencha.gxt.widget.core.client.form" 
+	xmlns:t="urn:import:com.dtc.test.client.ui">
+	
+	<f:FieldLabel text="ComboBox" >
+		<f:widget>
+			<f:StringComboBox ui:field="comboBox" />
+		</f:widget>
+	</f:FieldLabel>
+	
+</ui:UiBinder> 
